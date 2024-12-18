@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="22"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Geometric sizing"
+            android:textSize="28sp"
+            android:background="@drawable/border"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:inputType="number"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:id="@+id/geometricSizing" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="MDF
+            each street"
+            android:textSize="30sp"
+            android:background="@drawable/border"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:inputType="number"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:id="@+id/mdf" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Final Calling Range"
+            android:textSize="28sp"
+            android:background="@drawable/border"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:inputType="number"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:id="@+id/finalCallingRange" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:text="Pot"
+            android:background="@drawable/border"
+            android:layout_weight="1"
+            android:backgroundTint="#afeeee"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:text="Effective Stack"
+            android:background="@drawable/border"
+            android:layout_weight="1"
+            android:backgroundTint="#87ceeb"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:text="Number Of \n Bets"
+            android:background="@drawable/border"
+            android:layout_weight="1"
+            android:backgroundTint="#6495ed"
+            android:layout_margin="2dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="27sp"
+            android:inputType="number"
+            android:gravity="center"
+            android:id="@+id/editPot" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="27sp"
+            android:inputType="number"
+            android:gravity="center"
+            android:id="@+id/editES" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="27sp"
+            android:inputType="number"
+            android:gravity="center"
+            android:id="@+id/editNoB" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="horizontal"
+        android:weightSum="12">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text=""
+            android:textSize="35sp"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="AC"
+            android:background="@drawable/custom_button"
+            app:backgroundTint="@null"
+            android:textSize="23sp"
+            android:textStyle="italic"
+            android:layout_margin="2dp"
+            android:onClick="tapAC"
+            android:id="@+id/acBtn"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="OK"
+            android:background="@drawable/custom_button"
+            app:backgroundTint="@null"
+            android:textSize="23sp"
+            android:textStyle="italic"
+            android:layout_margin="2dp"
+            android:onClick="tapOK"
+            android:id="@+id/okBtn"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
